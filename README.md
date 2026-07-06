@@ -71,3 +71,16 @@ python app.py
 ```
 
 ---
+
+## Flask Web Application
+
+### Home Page
+
+![Home Page](screenshots/home_page.png)
+
+---
+
+
+### Prediction Output
+
+![Prediction Output](screenshots/prediction_output.png)
