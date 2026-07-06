@@ -47,17 +47,35 @@ The application predicts the credit approval category of customers based on thei
 ## Project Structure
 
 ```
+## Project Structure
+
+```text
 Credit_Risk_Modelling/
 
-│── app.py
-│── requirements.txt
-│── education_encoder.pkl
-│── preprocessor.pkl
-│── xgb_model.json
-│── label_encoder.pkl
-
+├── models/
+│   ├── education_encoder.pkl
+│   ├── preprocessor.pkl
+│   ├── label_encoder.pkl
+│   └── xgb_model.json
+│
+├── notebook/
+│   └── Credit_Risk_Modelling.ipynb
+│
+├── sample_files/
+│   ├── Test_Dataset_100_Rows.xlsx
+│   └── Final_Predictions.xlsx
+│
+├── screenshots/
+│   ├── home_page.png
+│   └── Prediction_Output.png
+│
 ├── templates/
-│      └── index.html
+│   └── index.html
+│
+├── app.py
+├── requirements.txt
+└── README.md
+```
 ```
 
 ---
