@@ -2,8 +2,3 @@ __pycache__/
 *.pyc
 uploads/
 outputs/
-
-education_encoder.pkl
-preprocessor.pkl
-label_encoder.pkl
-xgb_model.json
