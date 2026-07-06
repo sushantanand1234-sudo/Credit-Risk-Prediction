@@ -61,13 +61,13 @@ class EducationOrdinalEncoder(BaseEstimator, TransformerMixin):
 
 app = Flask(__name__)
 
-education_encoder = joblib.load("education_encoder.pkl")
-preprocessor = joblib.load("preprocessor.pkl")
+education_encoder = joblib.load("models/education_encoder.pkl")
+preprocessor = joblib.load("models/preprocessor.pkl")
 
 model = xgb.XGBClassifier()
-model.load_model("xgb_model.json")
+model.load_model("models/xgb_model.json")
 
-label_encoder = joblib.load("label_encoder.pkl")
+label_encoder = joblib.load("models/label_encoder.pkl")
 
 
 UPLOAD_FOLDER = "uploads"
