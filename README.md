@@ -101,4 +101,4 @@ python app.py
 
 ### Prediction Output
 
-![Prediction Output](screenshots/prediction_output.png)
+![Prediction Output](screenshots/prediction_result.png)
