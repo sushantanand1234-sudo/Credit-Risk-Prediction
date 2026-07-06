@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 uploads/
 outputs/
+
+static/pie_chart.png
+static/bar_chart.png
