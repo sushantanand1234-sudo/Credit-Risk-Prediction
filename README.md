@@ -37,3 +37,22 @@ Credit_Risk_Modelling/
 - P2 – Low Credit Risk
 - P3 – Medium Credit Risk
 - P4 – High Credit Risk
+
+## Dashboard Preview
+
+The Flask dashboard provides an interactive summary of credit risk predictions, including:
+
+- Prediction Summary (P1–P4)
+- Pie Chart of Prediction Distribution
+- Bar Chart of Prediction Counts
+- Download Prediction Report
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Feature Importance
+
+The XGBoost model's top 20 most influential features are visualized to improve model interpretability.
+
+![Feature Importance](screenshots/feature_importance.png)
