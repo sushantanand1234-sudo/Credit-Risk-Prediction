@@ -1,2 +1,4 @@
-def test_sample():
-    assert 2 + 2 == 4
+from app import app
+
+def test_app_creation():
+    assert app is not None
