@@ -28,27 +28,7 @@ EDUCATION_MAP = {
 # Custom Transformer
 # ===================================================
 
-class EducationOrdinalEncoder(BaseEstimator, TransformerMixin):
-
-    def __init__(self, mapping=EDUCATION_MAP, column="EDUCATION"):
-        self.mapping = mapping
-        self.column = column
-
-    def fit(self, X, y=None):
-        self.fallback_value_ = pd.Series(
-            X[self.column].map(self.mapping)
-        ).mode()[0]
-        return self
-
-    def transform(self, X):
-        X = X.copy()
-        X[self.column] = (
-            X[self.column]
-            .map(self.mapping)
-            .fillna(self.fallback_value_)
-            .astype(int)
-        )
-        return X
+from custom_transformers import EducationOrdinalEncoder
 
 
 # ===================================================
